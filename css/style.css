@@ -1,0 +1,98 @@
+/* 
+    RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 
+    HEADER
+ */
+header {
+    height: 40px;
+    text-align: right;
+    padding: 5px;
+}
+
+header button {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 2px 4x;
+    border-radius: 3px;
+    border: none;
+}
+
+
+/* 
+    MAIN
+*/
+main {
+    height: calc(100vh - 140px);
+    
+}
+
+
+
+
+/* 
+    FOOTER
+*/
+footer {
+    height: 100px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div > * {
+    height: 100%;
+}
+
+footer button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+}
+
+footer button > div {
+    margin-top: 8px;
+}
+
+#share-icon {
+    color: green;
+}
+
+#end-meeting-button {
+    
+}
+
+
+
+
+/* 
+    DEBUG
+*/
+/* .debug header, .debug main, .debug footer {
+    height: 100px;
+} */
+
+.debug header {
+    background-color: aqua;
+}
+.debug  main {
+    background-color: lightcoral;
+}
+/* .debug  footer {
+    background-color: green;
+} */
